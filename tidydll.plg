@@ -1,0 +1,109 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: tidydll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ocean\AppData\Local\Temp\RSP4F0D.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "TIDYDLL_EXPORTS" /Fp"Release/tidydll.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Downloads\htmltidy\src\access.c"
+"D:\Downloads\htmltidy\src\alloc.c"
+"D:\Downloads\htmltidy\src\attrask.c"
+"D:\Downloads\htmltidy\src\attrdict.c"
+"D:\Downloads\htmltidy\src\attrget.c"
+"D:\Downloads\htmltidy\src\attrs.c"
+"D:\Downloads\htmltidy\src\buffio.c"
+"D:\Downloads\htmltidy\src\charsets.c"
+"D:\Downloads\htmltidy\src\clean.c"
+"D:\Downloads\htmltidy\src\config.c"
+"D:\Downloads\htmltidy\src\entities.c"
+"D:\Downloads\htmltidy\src\fileio.c"
+"D:\Downloads\htmltidy\src\iconvtc.c"
+"D:\Downloads\htmltidy\src\istack.c"
+"D:\Downloads\htmltidy\src\lexer.c"
+"D:\Downloads\htmltidy\src\localize.c"
+"D:\Downloads\htmltidy\src\mappedio.c"
+"D:\Downloads\htmltidy\src\parser.c"
+"D:\Downloads\htmltidy\src\pprint.c"
+"D:\Downloads\htmltidy\src\streamio.c"
+"D:\Downloads\htmltidy\src\tagask.c"
+"D:\Downloads\htmltidy\src\tags.c"
+"D:\Downloads\htmltidy\src\tidylib.c"
+"D:\Downloads\htmltidy\src\tmbstr.c"
+"D:\Downloads\htmltidy\src\utf8.c"
+"D:\Downloads\htmltidy\src\win32tc.c"
+]
+Creating command line "cl.exe @C:\Users\ocean\AppData\Local\Temp\RSP4F0D.tmp" 
+Creating temporary file "C:\Users\ocean\AppData\Local\Temp\RSP4F0E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/tidydll.pdb" /machine:I386 /out:"lib/tidydll.dll" /implib:"Release/tidydll.lib" 
+.\Release\access.obj
+.\Release\alloc.obj
+.\Release\attrask.obj
+.\Release\attrdict.obj
+.\Release\attrget.obj
+.\Release\attrs.obj
+.\Release\buffio.obj
+.\Release\charsets.obj
+.\Release\clean.obj
+.\Release\config.obj
+.\Release\entities.obj
+.\Release\fileio.obj
+.\Release\iconvtc.obj
+.\Release\istack.obj
+.\Release\lexer.obj
+.\Release\localize.obj
+.\Release\mappedio.obj
+.\Release\parser.obj
+.\Release\pprint.obj
+.\Release\streamio.obj
+.\Release\tagask.obj
+.\Release\tags.obj
+.\Release\tidylib.obj
+.\Release\tmbstr.obj
+.\Release\utf8.obj
+.\Release\win32tc.obj
+]
+Creating command line "link.exe @C:\Users\ocean\AppData\Local\Temp\RSP4F0E.tmp"
+<h3>Output Window</h3>
+Compiling...
+access.c
+alloc.c
+attrask.c
+attrdict.c
+attrget.c
+attrs.c
+D:\Downloads\htmltidy\src\attrs.c(1815) : warning C4550: expression evaluates to a function which is missing an argument list
+buffio.c
+charsets.c
+clean.c
+config.c
+entities.c
+fileio.c
+iconvtc.c
+istack.c
+lexer.c
+localize.c
+mappedio.c
+parser.c
+pprint.c
+streamio.c
+tagask.c
+tags.c
+tidylib.c
+tmbstr.c
+utf8.c
+win32tc.c
+Linking...
+   Creating library Release/tidydll.lib and object Release/tidydll.exp
+
+
+
+<h3>Results</h3>
+tidydll.dll - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
